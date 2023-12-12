@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>TO DO list app</title>
+</head>
+<body>
+        <div class="inner-container">
+            <div class="inner-content">
+                <h1>TO DO List</h1>
+                <form id="form-main">
+            <input type="text" class="search" placeholder="add to list" id="search" required >
+            <button class="btn" type="submit"  onclick="addTask()"><i class="fa-solid fa-plus"></i></button>
+            <button class="btn" type="reset"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
+            </form>
+            <hr style="margin: 20px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-right: 20px;">
+            <h3>Details here</h3></div>
+            <ul id="todo-list"></ul> 
+          
+            </div>
+        </div>
+        <script src="main.js">
+        </script>
+</body>
+</html>
